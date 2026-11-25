@@ -1,4 +1,4 @@
-# -n8n-workflows
+# n8n-workflows
 Collection of my n8n automation workflows @me
 - **GamesTailor1.json** The GamesTailor workflow: automates email notifications by receiving an email generated from a webform of enquiries for ideas for "80s arcade type of online 20 second games" which its prize for the players is a CTA button for an incentive to use the company's services (i.e: discount coupon etc)
 Workflow: Workflow's Emails trigger receives a new email from the website webform. Extracts the email body and ID, takes it to the AI agent for web scrapping and creating a sales pitch for the game idea based on the curtomer's industry and brand, using OpenAI chat model.
